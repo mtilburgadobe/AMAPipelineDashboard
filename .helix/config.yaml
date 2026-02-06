@@ -1,0 +1,14 @@
+version: 1
+
+definitions:
+  auth:
+    adobe-ims:
+      type: ims
+      allow:
+        - email_domain: adobe.com
+
+routes:
+  - url: /dashboard
+    auth: adobe-ims
+  - url: /**
+    auth: adobe-ims
