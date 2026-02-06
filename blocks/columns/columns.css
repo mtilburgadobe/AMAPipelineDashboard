@@ -31,3 +31,136 @@
     order: unset;
   }
 }
+
+/* Panels variant */
+.columns.panels {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* stylelint-disable no-descending-specificity -- panels and kpi are mutually exclusive variants */
+
+/* Panel rows */
+.columns.panels > div:first-child,
+.columns.panels > div:not(:first-child) {
+  display: flex;
+  gap: 20px;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* Panel header cells */
+.columns.panels > div:first-child > div {
+  flex: 1;
+  min-width: 0;
+  background: var(--background-color);
+  border-radius: 12px 12px 0 0;
+  padding: 14px 24px;
+  border-bottom: 3px solid var(--link-color);
+  box-shadow: 0 1px 6px rgb(0 0 0 / 8%);
+}
+
+.columns.panels > div:first-child > div strong {
+  font-size: var(--body-font-size-m);
+  font-family: var(--heading-font-family);
+  color: var(--link-color);
+}
+
+.columns.panels > div:first-child > div p {
+  margin: 0;
+}
+
+/* Panel data cells */
+.columns.panels > div:not(:first-child) > div {
+  flex: 1;
+  min-width: 0;
+  background: var(--background-color);
+  padding: 10px 24px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.columns.panels > div:not(:first-child) > div p {
+  margin: 0;
+  font-size: var(--body-font-size-s);
+  color: var(--dark-color);
+}
+
+.columns.panels > div:not(:first-child) > div strong {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+/* Alternating row colors */
+.columns.panels > div:not(:first-child):nth-child(odd) > div {
+  background: var(--light-color);
+}
+
+/* Last row rounded corners */
+.columns.panels > div:not(:first-child):last-child > div {
+  border-radius: 0 0 12px 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+}
+
+@media (width < 600px) {
+  .columns.panels > div:first-child,
+  .columns.panels > div:not(:first-child) {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* KPI variant */
+
+/* stylelint-disable no-descending-specificity -- kpi and panels are mutually exclusive variants */
+
+.columns.kpi > div {
+  gap: 16px;
+}
+
+.columns.kpi > div > div {
+  background: var(--background-color);
+  border-radius: 12px;
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 8%), 0 1px 3px rgb(0 0 0 / 6%);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+.columns.kpi > div > div:hover {
+  box-shadow: 0 4px 14px rgb(0 0 0 / 12%), 0 2px 6px rgb(0 0 0 / 8%);
+  transform: translateY(-2px);
+}
+
+.columns.kpi > div > div strong {
+  display: block;
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  line-height: 1;
+  color: var(--link-color);
+  margin-bottom: 6px;
+}
+
+.columns.kpi > div > div p {
+  margin: 0;
+  font-size: var(--body-font-size-xs);
+  color: var(--dark-color);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media (width >= 600px) {
+  .columns.kpi > div {
+    flex-direction: row;
+  }
+
+  .columns.kpi > div > div {
+    flex: 1;
+  }
+}
