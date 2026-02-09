@@ -1,0 +1,116 @@
+{
+  "total": 8,
+  "offset": 0,
+  "limit": 8,
+  ":type": "sheet",
+  "data": [
+    {
+      "Customer Name": "Acme Corp",
+      "Agentic SKU Pipeline State": "Discovery",
+      "AEO SKU Pipeline State": "Qualified",
+      "Customer URL": "https://www.acme.com",
+      "Customer URL Text": "acme.com",
+      "Engineering Owner": "Jane Smith",
+      "Sales Owner": "Tom Baker",
+      "Partner Name": "Deloitte",
+      "Deployment Type": "Cloud (AMS)",
+      "Next Steps": "Schedule technical deep-dive with engineering"
+    },
+    {
+      "Customer Name": "GlobalTech Inc",
+      "Agentic SKU Pipeline State": "POC In Progress",
+      "AEO SKU Pipeline State": "Proposal Sent",
+      "Customer URL": "https://www.globaltech.io",
+      "Customer URL Text": "globaltech.io",
+      "Engineering Owner": "Raj Patel",
+      "Sales Owner": "Lisa Nguyen",
+      "Partner Name": "Accenture",
+      "Deployment Type": "Cloud (AEMaaCS)",
+      "Next Steps": "Complete POC environment setup"
+    },
+    {
+      "Customer Name": "Pinnacle Media",
+      "Agentic SKU Pipeline State": "Contracted",
+      "AEO SKU Pipeline State": "Negotiation",
+      "Customer URL": "https://www.pinnaclemedia.com",
+      "Customer URL Text": "pinnaclemedia.com",
+      "Engineering Owner": "Carlos Rivera",
+      "Sales Owner": "Sarah Johnson",
+      "Partner Name": "Cognizant",
+      "Deployment Type": "Hybrid",
+      "Next Steps": "Finalize SOW and begin onboarding"
+    },
+    {
+      "Customer Name": "Horizon Health",
+      "Agentic SKU Pipeline State": "Evaluation",
+      "AEO SKU Pipeline State": "Discovery",
+      "Customer URL": "https://www.horizonhealth.org",
+      "Customer URL Text": "horizonhealth.org",
+      "Engineering Owner": "Wei Chen",
+      "Sales Owner": "Mark Davis",
+      "Partner Name": "IBM iX",
+      "Deployment Type": "On-Premise",
+      "Next Steps": "Present AEO capabilities demo"
+    },
+    {
+      "Customer Name": "Summit Financial",
+      "Agentic SKU Pipeline State": "Qualified",
+      "AEO SKU Pipeline State": "POC In Progress",
+      "Customer URL": "https://www.summitfin.com",
+      "Customer URL Text": "summitfin.com",
+      "Engineering Owner": "Priya Sharma",
+      "Sales Owner": "Kevin O'Brien",
+      "Partner Name": "Wipro",
+      "Deployment Type": "Cloud (AEMaaCS)",
+      "Next Steps": "Review POC results and align on timeline"
+    },
+    {
+      "Customer Name": "Redwood Retail",
+      "Agentic SKU Pipeline State": "Discovery",
+      "AEO SKU Pipeline State": "Not Started",
+      "Customer URL": "https://www.redwoodretail.com",
+      "Customer URL Text": "redwoodretail.com",
+      "Engineering Owner": "Alex Kim",
+      "Sales Owner": "Diana Cruz",
+      "Partner Name": "EY",
+      "Deployment Type": "Cloud (AMS)",
+      "Next Steps": "Initial discovery call scheduled"
+    },
+    {
+      "Customer Name": "Atlas Logistics",
+      "Agentic SKU Pipeline State": "Contracted",
+      "AEO SKU Pipeline State": "Contracted",
+      "Customer URL": "https://www.atlaslogistics.net",
+      "Customer URL Text": "atlaslogistics.net",
+      "Engineering Owner": "Jordan Lee",
+      "Sales Owner": "Mike Thompson",
+      "Partner Name": "Infosys",
+      "Deployment Type": "Cloud (AEMaaCS)",
+      "Next Steps": "Kick off implementation sprint 1"
+    },
+    {
+      "Customer Name": "Nova Telecom",
+      "Agentic SKU Pipeline State": "Proposal Sent",
+      "AEO SKU Pipeline State": "Evaluation",
+      "Customer URL": "https://www.novatelco.com",
+      "Customer URL Text": "novatelco.com",
+      "Engineering Owner": "Sana Malik",
+      "Sales Owner": "Chris Wallace",
+      "Partner Name": "TCS",
+      "Deployment Type": "Hybrid",
+      "Next Steps": "Address security review feedback"
+    }
+  ],
+  ":names": [
+    "Customer Name",
+    "Agentic SKU Pipeline State",
+    "AEO SKU Pipeline State",
+    "Customer URL",
+    "Customer URL Text",
+    "Engineering Owner",
+    "Sales Owner",
+    "Partner Name",
+    "Deployment Type",
+    "Next Steps"
+  ]
+}
