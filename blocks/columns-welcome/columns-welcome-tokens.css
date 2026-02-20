@@ -1,0 +1,62 @@
+/* blocks/columns-welcome/columns-welcome-tokens.css */
+
+/* ALL values extracted from columns-welcome-measurements.txt */
+
+.columns-welcome {
+  /* ===== LAYOUT & DIMENSIONS ===== */
+  --columns-welcome-max-width: 1200px;
+  --columns-welcome-padding-block: 72px 40px;
+  --columns-welcome-padding-inline: 144px;
+  --columns-welcome-gap: 49px;
+  --columns-welcome-columns: 2;
+
+  /* ===== CONTAINER COLORS ===== */
+  --columns-welcome-background: #f5f5f5;
+
+  /* ===== TYPOGRAPHY - HEADINGS ===== */
+  --columns-welcome-heading-font-family: '72 Brand', var(--heading-font-family);
+  --columns-welcome-heading-font-size: 40px;
+  --columns-welcome-heading-font-weight: 500;
+  --columns-welcome-heading-font-style: normal;
+  --columns-welcome-heading-line-height: 48px;
+  --columns-welcome-heading-letter-spacing: normal;
+  --columns-welcome-heading-text-transform: none;
+  --columns-welcome-heading-color: #222;
+  --columns-welcome-heading-margin-top: 0;
+  --columns-welcome-heading-margin-bottom: 16px;
+
+  /* ===== TYPOGRAPHY - BODY ===== */
+  --columns-welcome-body-font-family: '72 Brand', var(--body-font-family);
+  --columns-welcome-body-font-size: 18px;
+  --columns-welcome-body-font-weight: 350;
+  --columns-welcome-body-font-style: normal;
+  --columns-welcome-body-line-height: 27px;
+  --columns-welcome-body-letter-spacing: normal;
+  --columns-welcome-body-color: #000;
+  --columns-welcome-body-margin-bottom: 16px;
+
+  /* ===== TYPOGRAPHY - SIGNATURE ===== */
+  --columns-welcome-signature-font-weight: 500;
+
+  /* ===== ICON ===== */
+  --columns-welcome-icon-width: 40px;
+  --columns-welcome-icon-height: auto;
+  --columns-welcome-icon-margin-bottom: 16px;
+
+  /* ===== IMAGE ===== */
+  --columns-welcome-image-border-radius: 0;
+  --columns-welcome-image-object-fit: cover;
+
+  /* ===== BORDERS & RADIUS ===== */
+  --columns-welcome-border-width: 0;
+  --columns-welcome-border-style: none;
+  --columns-welcome-border-color: transparent;
+  --columns-welcome-border-radius: 0;
+
+  /* ===== SHADOWS ===== */
+  --columns-welcome-box-shadow: none;
+
+  /* ===== EFFECTS & TRANSITIONS ===== */
+  --columns-welcome-transition-duration: 0ms;
+  --columns-welcome-transition-timing: ease;
+}
