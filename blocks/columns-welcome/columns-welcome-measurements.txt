@@ -1,0 +1,72 @@
+VISUAL MEASUREMENT CHECKLIST FOR columns-welcome
+================================================
+Extracted from Figma node: 4011:6532
+Date: 2026-02-20
+
+LAYOUT & DIMENSIONS
+☑ Container width: 1920px (source: metadata frame width=1920)
+☑ Container height: 557px (source: metadata frame height=557.22)
+☑ Container padding: top 72px right 144px bottom 40px left 144px (source: calculated from child offsets vs parent frame)
+☑ Grid/Flex gap: 49px (source: calculated gap between Container x+w=7805.52 and Image x=7854.47)
+☑ Column count: 2 (source: metadata shows 2 main child frames - Container + Image)
+☑ Item width: 792px (source: metadata child frame width=791.52)
+☑ Item height: 445px (source: metadata child frame height=445.22)
+
+SPACING (EXACT PIXELS)
+☑ Section padding: 72px 144px 40px 144px (source: frame position offsets)
+☑ Item internal padding: 0px 0px 0px 0px (source: no padding classes in Container extraction)
+☑ Gap between items: 49px (source: calculated from frame positions)
+☑ Margin between text elements: 0px (source: default text flow, no explicit margin in extraction)
+☑ Image margin/padding: 0px (source: image fills full column frame)
+
+COLORS (EXACT HEX + OPACITY)
+☑ Background color: #f5f5f5 (opacity: 100%) (source: visual inspection of screenshot, light gray background)
+☑ Primary text color: #222222 (source: heading text-[#222222] in Container extraction)
+☑ Secondary text color: #000000 (source: body text-[#000000] in Container extraction)
+☑ Accent/link color: N/A (source: no links/CTAs in component)
+☑ Border color: N/A (opacity: N/A) (source: no borders on main content)
+☑ Hover background: N/A (source: no hover states in component)
+☑ Hover text color: N/A (source: no hover states in component)
+
+TYPOGRAPHY (ALL PROPERTIES)
+☑ Heading font-family: '72 Brand', sans-serif (source: font-['72_Brand',sans-serif] in node 4011:6542)
+☑ Heading font-size: 40px (source: text-[40px] in node 4011:6542)
+☑ Heading font-weight: 500 (source: font-medium in node 4011:6542)
+☑ Heading line-height: 48px (source: leading-[48px] in node 4011:6542)
+☑ Heading letter-spacing: normal (source: no letter-spacing class in extraction)
+☑ Heading text-transform: none (source: no text-transform class in extraction)
+☑ Heading font-style: normal (source: no italic class in extraction)
+☑ Body font-family: '72 Brand', sans-serif (source: font-['72_Brand',sans-serif] in node 4011:6543)
+☑ Body font-size: 18px (source: text-[18px] in node 4011:6543)
+☑ Body font-weight: 350 (source: font-[350] in node 4011:6543)
+☑ Body line-height: 27px (source: leading-[27px] in node 4011:6543)
+☑ Body letter-spacing: normal (source: no letter-spacing class in extraction)
+☑ Body font-style: normal (source: no italic class in extraction)
+☑ Signature font-weight: 500 (source: font-medium in node 4011:6545)
+
+BORDERS & RADIUS (CRITICAL)
+☑ Border width: 0px (source: no border classes in main content extraction)
+☑ Border style: none (source: no border styling in extracted data)
+☑ Border color: N/A (source: no border present)
+☑ Border radius: 0px (source: no rounded classes in main content)
+☑ Image overlay border-radius: 43.5px (source: rounded-[43.5px] in node 4011:6548)
+☑ Image overlay border: 1px solid #ffffff (source: border-[1px] border-solid border-[#ffffff] in node 4011:6548)
+
+SHADOWS (EXACT VALUES)
+☑ Box-shadow offset-x: 0px (source: no box-shadow on main content)
+☑ Box-shadow offset-y: 0px (source: no box-shadow on main content)
+☑ Box-shadow blur: 0px (source: no box-shadow on main content)
+☑ Box-shadow spread: 0px (source: no box-shadow on main content)
+☑ Box-shadow color: N/A (source: no box-shadow on main content)
+☑ Overlay shadow: inset 0px 0px 0px rgba(0,0,0,0.15) (source: node 4011:6548 boxShadow)
+
+EFFECTS & TRANSITIONS
+☑ Hover transform: none (source: no hover states in component)
+☑ Transition duration: 0ms (source: no transitions in component)
+☑ Transition timing: none (source: no transitions in component)
+☑ Opacity changes: none (source: no opacity transitions in component)
+
+IMAGES & ICONS
+☑ SAP icon: 66x54px PNG (source: downloaded from node extraction)
+☑ Hero image: 1584x891px PNG mountain scene (source: downloaded from node 4011:6546)
+☑ SAP blue logo: 66x82px PNG (source: downloaded from node extraction)

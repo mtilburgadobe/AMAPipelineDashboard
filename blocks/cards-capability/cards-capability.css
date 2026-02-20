@@ -1,0 +1,81 @@
+/* Import component-specific tokens */
+@import url('./cards-capability-tokens.css');
+
+/* cards-capability block styles */
+
+.cards-capability > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: var(--cards-capability-grid-columns);
+  gap: var(--cards-capability-grid-gap);
+}
+
+.cards-capability > ul > li {
+  border: var(--cards-capability-card-border);
+  background-color: var(--cards-capability-card-background);
+  border-radius: var(--cards-capability-card-border-radius);
+  box-shadow: var(--cards-capability-card-shadow);
+  overflow: var(--cards-capability-card-overflow);
+}
+
+.cards-capability .cards-capability-card-body {
+  margin: 16px;
+}
+
+.cards-capability .cards-capability-card-image {
+  line-height: 0;
+}
+
+.cards-capability > ul > li img {
+  width: 100%;
+  aspect-ratio: var(--cards-capability-image-aspect-ratio);
+  object-fit: var(--cards-capability-image-object-fit);
+}
+
+/* Section overrides for cards-capability */
+main > .section:has(.cards-capability) {
+  background: var(--cards-capability-section-background);
+  padding: 40px 0;
+  margin: 0;
+}
+
+main > .section:has(.cards-capability) h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: var(--cards-capability-title-font-family);
+  font-size: var(--cards-capability-title-font-size);
+  font-weight: var(--cards-capability-title-font-weight);
+  line-height: var(--cards-capability-title-line-height);
+  color: var(--cards-capability-title-color);
+}
+
+main > .section:has(.cards-capability) h3 {
+  text-align: center;
+  font-family: var(--cards-capability-title-font-family);
+  font-size: var(--cards-capability-feature-title-font-size);
+  font-weight: var(--cards-capability-feature-title-font-weight);
+  line-height: var(--cards-capability-feature-title-line-height);
+  color: var(--cards-capability-feature-title-color);
+}
+
+main > .section:has(.cards-capability) > div > p {
+  text-align: center;
+  font-family: var(--cards-capability-description-font-family);
+  color: var(--cards-capability-description-color);
+}
+
+main > .section:has(.cards-capability) > div > p:first-child {
+  font-size: var(--cards-capability-subtitle-font-size);
+  font-weight: var(--cards-capability-subtitle-font-weight);
+  line-height: var(--cards-capability-subtitle-line-height);
+  color: var(--cards-capability-subtitle-color);
+}
+
+main > .section:has(.cards-capability) > div > p:nth-child(3) {
+  font-size: var(--cards-capability-description-font-size);
+  font-weight: var(--cards-capability-description-font-weight);
+  line-height: var(--cards-capability-description-line-height);
+}

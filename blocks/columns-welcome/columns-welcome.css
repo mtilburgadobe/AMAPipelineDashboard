@@ -1,0 +1,109 @@
+/* Import component-specific tokens */
+@import url('./columns-welcome-tokens.css');
+
+/* Section overrides for columns-welcome */
+main > .section:has(.columns-welcome) {
+  background: var(--columns-welcome-background);
+  color: var(--columns-welcome-body-color);
+  padding: 40px 0;
+  margin: 0;
+}
+
+main > .section:has(.columns-welcome) h2 {
+  color: var(--columns-welcome-heading-color);
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: var(--columns-welcome-heading-margin-bottom);
+}
+
+main > .section:has(.columns-welcome) p {
+  color: var(--columns-welcome-body-color);
+  font-size: var(--columns-welcome-body-font-size);
+}
+
+/* columns-welcome block styles */
+
+.columns-welcome {
+  background: var(--columns-welcome-background);
+}
+
+.columns-welcome > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-welcome img {
+  width: 100%;
+}
+
+.columns-welcome > div > div {
+  order: 1;
+}
+
+.columns-welcome > div > .columns-welcome-img-col {
+  order: 0;
+}
+
+.columns-welcome > div > .columns-welcome-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: var(--columns-welcome-image-object-fit);
+}
+
+/* Text column typography */
+.columns-welcome > div > div:not(.columns-welcome-img-col) h2 {
+  font-family: var(--columns-welcome-heading-font-family);
+  font-size: var(--columns-welcome-heading-font-size);
+  font-weight: var(--columns-welcome-heading-font-weight);
+  font-style: var(--columns-welcome-heading-font-style);
+  line-height: var(--columns-welcome-heading-line-height);
+  letter-spacing: var(--columns-welcome-heading-letter-spacing);
+  text-transform: var(--columns-welcome-heading-text-transform);
+  color: var(--columns-welcome-heading-color);
+  margin-top: var(--columns-welcome-heading-margin-top);
+  margin-bottom: var(--columns-welcome-heading-margin-bottom);
+  border-bottom: var(--columns-welcome-border-style);
+  padding-bottom: 0;
+}
+
+.columns-welcome > div > div:not(.columns-welcome-img-col) p {
+  font-family: var(--columns-welcome-body-font-family);
+  font-size: var(--columns-welcome-body-font-size);
+  font-weight: var(--columns-welcome-body-font-weight);
+  font-style: var(--columns-welcome-body-font-style);
+  line-height: var(--columns-welcome-body-line-height);
+  letter-spacing: var(--columns-welcome-body-letter-spacing);
+  color: var(--columns-welcome-body-color);
+  margin-bottom: var(--columns-welcome-body-margin-bottom);
+  margin-top: 0;
+}
+
+.columns-welcome > div > div:not(.columns-welcome-img-col) p strong {
+  font-weight: var(--columns-welcome-signature-font-weight);
+}
+
+/* Icon in the first paragraph */
+.columns-welcome > div > div:not(.columns-welcome-img-col) p:first-child img {
+  width: var(--columns-welcome-icon-width);
+  height: var(--columns-welcome-icon-height);
+  margin-bottom: var(--columns-welcome-icon-margin-bottom);
+}
+
+@media (width >= 900px) {
+  .columns-welcome > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: var(--columns-welcome-gap);
+  }
+
+  .columns-welcome > div > div {
+    flex: 1;
+    order: unset;
+  }
+
+  .columns-welcome > div > .columns-welcome-img-col {
+    max-height: 445px;
+    overflow: hidden;
+  }
+}
