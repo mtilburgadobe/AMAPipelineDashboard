@@ -1,0 +1,45 @@
+/* blocks/cards-capability/cards-capability-tokens.css */
+
+/* Design tokens extracted from Figma node 4011:6550 */
+
+.cards-capability {
+  /* ===== LAYOUT ===== */
+  --cards-capability-grid-gap: 24px;
+  --cards-capability-grid-columns: repeat(auto-fill, minmax(280px, 1fr));
+  --cards-capability-max-width: 1200px;
+
+  /* ===== CARD PROPERTIES ===== */
+  --cards-capability-card-background: #fff;
+  --cards-capability-card-border-radius: 16px;
+  --cards-capability-card-border: none;
+  --cards-capability-card-shadow: 0px 4px 18px 0px rgb(0 0 0 / 10%);
+  --cards-capability-card-overflow: hidden;
+
+  /* ===== IMAGE ===== */
+  --cards-capability-image-aspect-ratio: 16 / 10;
+  --cards-capability-image-object-fit: cover;
+
+  /* ===== SECTION BACKGROUND ===== */
+  --cards-capability-section-background: #fff;
+
+  /* ===== HEADER TYPOGRAPHY ===== */
+  --cards-capability-subtitle-font-family: '72 Brand', var(--body-font-family);
+  --cards-capability-subtitle-font-size: 22px;
+  --cards-capability-subtitle-font-weight: 350;
+  --cards-capability-subtitle-line-height: 26px;
+  --cards-capability-subtitle-color: #4f4e4e;
+  --cards-capability-title-font-family: '72 Brand', var(--heading-font-family);
+  --cards-capability-title-font-size: 40px;
+  --cards-capability-title-font-weight: 500;
+  --cards-capability-title-line-height: 48px;
+  --cards-capability-title-color: #222;
+  --cards-capability-description-font-family: '72 Brand', var(--body-font-family);
+  --cards-capability-description-font-size: 22px;
+  --cards-capability-description-font-weight: 400;
+  --cards-capability-description-line-height: 30px;
+  --cards-capability-description-color: #222;
+  --cards-capability-feature-title-font-size: 26px;
+  --cards-capability-feature-title-font-weight: 500;
+  --cards-capability-feature-title-line-height: 31px;
+  --cards-capability-feature-title-color: #222;
+}
